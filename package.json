@@ -1,0 +1,17 @@
+{
+  "name": "nw-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.html",
+  "scripts": {
+    "dev": "nw src/",
+    "prod": "nwbuild --platforms win32,win64,osx64,linux32,linux64 --buildDir dist/ src/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nw": "^0.53.0",
+    "nw-builder": "^3.5.7"
+  }
+}
